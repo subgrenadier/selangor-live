@@ -107,17 +107,10 @@ const App = () => {
           </Col>
         </Row>
 
-
         <Row className="text-start mb-4" style={{ margin: '0 10%' }}>
           <h4 className="text-center my-3">Share this match:</h4>
           <SocialShare title="Live Stream: Selangor vs Jeonbuk" url="https://selangor-live.netlify.app/" />
 
-          <h5>Info Siaran Langsung & Live Streaming:</h5>
-          <p>
-            <strong>Tarikh:</strong> 23 Oktober 2024 (Rabu)<br />
-            <strong>Masa:</strong> 8 malam<br />
-            <strong>Venue:</strong> Stadium MBPJ
-          </p>
 
           {/* Match Countdown */}
           <h4 className="text-center my-3">⏳ Time left until match: {countdown}</h4>
@@ -131,6 +124,12 @@ const App = () => {
             fluid
             width="50vw"
           />
+          <h5>Info Siaran Langsung & Live Streaming:</h5>
+          <p>
+            <strong>Tarikh:</strong> 23 Oktober 2024 (Rabu)<br />
+            <strong>Masa:</strong> 8 malam<br />
+            <strong>Venue:</strong> Stadium MBPJ
+          </p>
 
 
         </Row>
