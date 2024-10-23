@@ -92,8 +92,7 @@ const App = () => {
       <Container fluid className="App my-4 dark-mode">
         <h2 className="text-center">Live Stream: Selangor vs Jeonbuk</h2>
         {/* Add the Social Share Component */}
-        <h4 className="text-center my-3">Share this match:</h4>
-        <SocialShare title="Live Stream: Gwangju vs Jeonbuk" url="https://selangor-live.netlify.app/" />
+
 
         {/* Video Player */}
         <Row className="justify-content-center mb-4">
@@ -107,7 +106,12 @@ const App = () => {
             />
           </Col>
         </Row>
+
+
         <Row className="text-start mb-4" style={{ margin: '0 10%' }}>
+          <h4 className="text-center my-3">Share this match:</h4>
+          <SocialShare title="Live Stream: Selangor vs Jeonbuk" url="https://selangor-live.netlify.app/" />
+
           <h5>Info Siaran Langsung & Live Streaming:</h5>
           <p>
             <strong>Tarikh:</strong> 23 Oktober 2024 (Rabu)<br />
