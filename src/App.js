@@ -87,7 +87,6 @@ const App = () => {
         <meta property="og:image" content="https://i.ytimg.com/vi/GPmq-BuVduM/hq720.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-
       </Helmet>
 
       <Container fluid className="App my-4 dark-mode">
