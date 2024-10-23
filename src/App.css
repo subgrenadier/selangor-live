@@ -2,6 +2,28 @@
   text-align: center;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  /* Prevents horizontal scroll */
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +54,60 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.dark-mode {
+  background-color: #121212;
+  /* Dark grey background */
+  color: white;
+  /* White text */
+}
+
+.dark-mode h2,
+.dark-mode h5 {
+  color: white;
+  /* Ensure headings are white */
+}
+
+.dark-mode p {
+  color: #e0e0e0;
+  /* Light grey for paragraph text */
+}
+
+.dark-mode .modal-content {
+  background-color: #1e1e1e;
+  /* Darker background for modal */
+  color: white;
+  /* White text for modal */
+}
+
+.dark-mode .modal-header,
+.dark-mode .modal-footer {
+  border-color: #444;
+  /* Change border color to match dark theme */
+}
+
+.social-share {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  /* Space between icons */
+  margin-top: 20px;
+  /* Space above the icons */
+}
+
+.social-share a {
+  color: #000;
+  /* Change icon color if needed */
+  transition: color 0.3s;
+  /* Transition effect */
+}
+
+.social-share a:hover {
+  color: #007bff;
+  /* Change color on hover */
 }
